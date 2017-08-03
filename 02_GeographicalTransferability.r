@@ -1,9 +1,12 @@
 ##--------------------------------------------------------------------------------------------------------
 ## SCRIPT : Analysis de l'extrapolation/interpolation entre covariables
 ##
-## Authors : Matthieu Authier & Clara P?ron
-## Last update : 2017-06-07
-## R version 3.3.1(2016-06-21) -- "Bug in Your Hair"
+## Authors : Matthieu Authier & Clara Peron
+## Last update : 2017-08-03
+##
+##R version 3.3.1 (2016-06-21) -- "Bug in Your Hair"
+## Copyright (C) 2016 The R Foundation for Statistical Computing
+## Platform: x86_64-w64-mingw32/x64 (64-bit)
 ##--------------------------------------------------------------------------------------------------------
 
 lapply(c("WhatIf", "lpSolve", "CLmapping"), 
