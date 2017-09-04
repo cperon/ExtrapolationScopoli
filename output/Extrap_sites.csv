@@ -1,0 +1,17 @@
+Calib_site;Test_site;Extrapolation
+Riou;Riou;0
+Riou;Porquerolles;17.4
+Riou;Giraglia;82.5
+Riou;Lavezzi;85.9
+Porquerolles;Porquerolles;0
+Porquerolles;Riou;11.7
+Porquerolles;Giraglia;58.5
+Porquerolles;Lavezzi;72.6
+Giraglia;Giraglia;0
+Giraglia;Riou;95.2
+Giraglia;Porquerolles;82.8
+Giraglia;Lavezzi;23.5
+Lavezzi;Lavezzi;0
+Lavezzi;Riou;94.5
+Lavezzi;Porquerolles;76.3
+Lavezzi;Giraglia;3.6
