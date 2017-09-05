@@ -1,0 +1,5 @@
+"Calibration"	"Test"	"Extrapolation"
+"Riou 2011"	"Riou 2012"	31.3
+"Porquerolles 2011"	"Porquerolles 2012"	44
+"Giraglia 2011"	"Giraglia 2012"	68.4
+"Lavezzi 2011"	"Lavezzi 2012"	4.4

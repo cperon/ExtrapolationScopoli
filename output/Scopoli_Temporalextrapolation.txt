@@ -1,0 +1,5 @@
+"Calibration";"Test";"Extrapolation"
+"Marseille";"Marseille_2012";31.3
+"Porquerolles";"Porquerolles_2012";44
+"Giraglia";"Giraglia_2012";68.4
+"Lavezzi";"Lavezzi_2012";4.4

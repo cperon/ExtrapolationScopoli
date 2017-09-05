@@ -93,14 +93,31 @@ OutDir <- paste(WorkDir, "shearw/output", sep = "/")
                                        test_data =testdata,
                                        var_name = c("Bathy", "Var_SST28", "logCHLA7", "SST28")
                                       )
-        return(testdata)
+        
       })
+      return(testdata)
     }
-    extra <- riou()
+    riou()
     
     # % extrapolation
-    summary(extra[[1]]) ; hist(extra[[1]])
+    #summary(extra[[1]]) ; hist(extra[[1]])
     
+    library(ggplot2)
+    theme_set(theme_bw(base_size = 12))
+    
+    ggplot(data = testdata,
+           aes(x = lon, y = lat, fill = extrapolation)
+    ) +
+      geom_tile() +
+      scale_fill_distiller(palette = "YlOrBr", na.value = grey(0.95)) +
+      guides(fill = guide_legend(title = "% data nearby")) +
+      xlab("Longitude") + ylab("Latitude") +
+      theme(legend.position = "top", 
+            legend.key.width = unit(2, "cm"),
+            panel.grid = element_blank(),
+            plot.title = element_text(lineheight = 0.8, face = "bold"), 
+            axis.text = element_text(size = 10)
+      )
     
   #############################
   # Porquerolles Is.          #
